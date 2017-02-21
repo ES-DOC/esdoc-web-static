@@ -516,7 +516,7 @@ return(!i||i!==r&&!b.contains(r,i))&&(e.type=o.origType,n=o.handler.apply(this,a
             window.location.host.indexOf('es-doc.org') >= 0) {
             ESDOC.options.apiBaseURL = 'https://test-api.es-doc.org';
         } else {
-            ESDOC.options.apiBaseURL = 'http://api.es-doc.org';
+            ESDOC.options.apiBaseURL = 'https://api.es-doc.org';
         }
     } else {
         ESDOC.options.apiBaseURL = 'http://localhost:5000';
@@ -526,9 +526,9 @@ return(!i||i!==r&&!b.contains(r,i))&&(e.type=o.origType,n=o.handler.apply(this,a
     if (window.location.host) {
         if (window.location.host.indexOf('test') >= 0 &&
             window.location.host.indexOf('es-doc.org') >= 0) {
-            ESDOC.options.staticBaseURL = 'http://test.static.es-doc.org';
+            ESDOC.options.staticBaseURL = 'https://test-static.es-doc.org';
         } else {
-            ESDOC.options.staticBaseURL = 'http://static.es-doc.org';
+            ESDOC.options.staticBaseURL = 'https://static.es-doc.org';
         }
     } else {
         ESDOC.options.staticBaseURL = '../esdoc-web-static';
