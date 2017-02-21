@@ -2,7 +2,7 @@
  * esdoc-js-client - javascript Library v0.9.7.0
  * https://github.com/ES-DOC/esdoc-js-client
  *
- * Copyright 2017, ES-DOC (http://es-doc.org)
+ * Copyright 2017, ES-DOC (https://es-doc.org)
  *
  * Licensed under the following licenses:.
  *     CeCILL       http://www.cecill.info/licences/Licence_CeCILL_V2-en.html
@@ -3369,9 +3369,9 @@ return(!i||i!==r&&!b.contains(r,i))&&(e.type=o.origType,n=o.handler.apply(this,a
     if (window.location.host) {
         if (window.location.host.indexOf('test') >= 0 &&
             window.location.host.indexOf('es-doc.org') >= 0) {
-            viewerBaseURL = 'http://test.view.es-doc.org';
+            viewerBaseURL = 'https://test.view.es-doc.org';
         } else {
-            viewerBaseURL = 'http://view.es-doc.org';
+            viewerBaseURL = 'https://view.es-doc.org';
         }
     } else {
         viewerBaseURL = '../esdoc-web-view/index.html';

@@ -2,7 +2,7 @@
  * esdoc-js-client - javascript Library v0.9.7.0
  * https://github.com/ES-DOC/esdoc-js-client
  *
- * Copyright 2017, ES-DOC (http://es-doc.org)
+ * Copyright 2017, ES-DOC (https://es-doc.org)
  *
  * Licensed under the following licenses:.
  *     CeCILL       http://www.cecill.info/licences/Licence_CeCILL_V2-en.html
